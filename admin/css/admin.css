@@ -1,0 +1,153 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(../../fonts/Ubuntu-R.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #ededed;
+	
+	font-family: ubuntu;
+}
+
+
+#left-sidebar{
+	width:250px;
+	background: #3e3e3e;
+	height: 100vh;
+	float:left;
+}
+
+#top{
+	background: #d9534f;
+    border-bottom :1px solid #d43f3a;
+	color:white;
+	padding:10px;
+}
+
+#top h1{
+	margin: 0;
+	font-size: 25pt;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+}
+
+#menu a:link,
+#menu a:visited,
+#menu a:hover,
+#menu a:active {
+	color: #71746f;
+}
+
+#menu ul{
+	padding-top: 20px;
+}
+
+#menu ul li{
+	border-bottom: 1px solid #4d4f4b;
+	height: 50px;
+	padding :15px;
+}
+#menu ul li:last-child {
+	border-bottom: none;
+}
+
+#menu .active{
+	background: #ededed;
+}
+#menu .active a{
+	color: #f36a5a;
+}
+
+#content-narrow{
+	text-align: center;
+	margin-left:250px;
+}
+#content{
+	text-align: center;
+	margin-left:250px;
+	margin-right:200px;
+}
+#top-bar{
+	border-bottom:2px solid #e6e6e6;
+	background: white;
+	text-align: left;
+	padding:10px;
+	margin-bottom:30px;
+}
+#top-bar p{
+	margin: 8px;
+}
+
+.files-section{
+	float:right;
+	width:200px;
+	background: #3e3e3e;
+	color: white;
+	height:100vh;
+	
+}
+
+.files-section h1{
+	padding:10px;
+	text-align: center;
+	margin-top:0;
+	background: #d9534f;
+    border-bottom: 1px solid #d43f3a;
+    color: white;
+    padding: 10px;
+	margin: 0;
+    font-size: 25pt;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+
+.files-section p{
+	padding-left:10px;
+	padding-right:10px;
+}
+.file-tile{
+	background: #3e3e3e;	
+	border-bottom: 1px solid #4d4f4b;
+    height: 50px;
+    padding: 15px;
+}
+
+.file-tile:first-child{
+	margin-top:20px;
+}
+.file-tile a{
+	color:white;
+}
+.file-tile.active {
+    background: #ededed;
+}
+.file-tile.active a{
+    color: #f36a5a;
+}
+.textarea-big{
+	width: 500px;
+	height: 400px;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+.ace_editor{
+	min-height:500px !important;
+}
+h1.404{
+	text-align: center;
+    font-size: 33rem;
+}
+h2.404{
+	text-align: center;
+    font-size: 2rem;
+}
